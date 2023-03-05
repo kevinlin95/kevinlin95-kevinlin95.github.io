@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="765debb5-4dbd-401b-a59b-53fe371effc1" name="Changes" comment="2/6 &#10;small dev comment">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kevinlin95.github.io.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="765debb5-4dbd-401b-a59b-53fe371effc1" name="Changes" comment="3/6&#10;updating directory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +64,7 @@
       <workItem from="1671132980198" duration="277000" />
       <workItem from="1675708959083" duration="264000" />
       <workItem from="1675709246626" duration="87000" />
-      <workItem from="1678033824454" duration="2403000" />
+      <workItem from="1678033824454" duration="2757000" />
     </task>
     <task id="LOCAL-00001" summary="2/6 &#10;updated index.html&#10;added mini directory&#10;deleted old files.">
       <created>1675709133760</created>
@@ -96,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675709321608</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3/6&#10;updating directory">
+      <created>1678037939242</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678037939242</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2/6 &#10;updated index.html&#10;added mini directory&#10;deleted old files." />
     <MESSAGE value="2/6 &#10;small dev comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="2/6 &#10;small dev comment" />
+    <MESSAGE value="3/6&#10;updating directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/6&#10;updating directory" />
   </component>
 </project>
