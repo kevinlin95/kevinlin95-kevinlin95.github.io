@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="765debb5-4dbd-401b-a59b-53fe371effc1" name="Changes" comment="3/6&#10;updating directory" />
+    <list default="true" id="765debb5-4dbd-401b-a59b-53fe371effc1" name="Changes" comment="3/6&#10;updating directory">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kevinlin95.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kevinlin95.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +37,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/asset" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/asset/src" />
@@ -64,7 +71,9 @@
       <workItem from="1671132980198" duration="277000" />
       <workItem from="1675708959083" duration="264000" />
       <workItem from="1675709246626" duration="87000" />
-      <workItem from="1678033824454" duration="2757000" />
+      <workItem from="1678033824454" duration="3180000" />
+      <workItem from="1678038777429" duration="1404000" />
+      <workItem from="1678146829120" duration="8328000" />
     </task>
     <task id="LOCAL-00001" summary="2/6 &#10;updated index.html&#10;added mini directory&#10;deleted old files.">
       <created>1675709133760</created>
@@ -94,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678037939242</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="3/6&#10;updating directory">
+      <created>1678038112601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678038112601</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
