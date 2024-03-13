@@ -1,11 +1,197 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
-.h1, footer{
-    position: relative;
-    z-index: 100;
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f8ff; /* Light Blue */
+    color: #333; /* Dark Blue */
 }
 
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
 
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Hero Section Styles */
+#hero {
+    background-image: url('hero-background.jpg'); /* Replace with your own image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Portfolio Section Styles */
+#portfolio {
+    padding: 80px 0;
+}
+
+.portfolio-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio-item {
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Contact Section Styles */
+#contact {
+    background-color: #f9f9f9; /* White */
+    color: #333; /* Dark Blue */
+    padding: 80px 0;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Contact Form */
+.contact-content {
+    background-color: #f0f8ff; /* Light Blue */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333; /* Dark Blue */
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    color: #333; /* Dark Blue */
+}
+
+button {
+    background-color: #333; /* Dark Blue */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+}
+
+/* Add mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        text-align: center;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        z-index: 1;
+    }
+    .nav-links li {
+        display: block;
+        margin-top: 10px;
+    }
+    .nav-links a {
+        color: #fff;
+    }
+    .toggle-btn {
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        display: block;
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    #toggle:checked + .toggle-btn {
+        transform: rotate(45deg);
+    }
+    #toggle:checked ~ .nav-links {
+        display: block;
+    }
+}
