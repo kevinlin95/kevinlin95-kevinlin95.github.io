@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home-Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script src="script.js"></script>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-blue w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-light-blue" href="javascript:void(0);" onclick="mobileMenuToggle()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="https://kevinlin95.github.io" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="https://kevinlin95.github.io/me" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Portfolio</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="https://kevinlin95.github.io/me/" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large">Portfolio</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  </div>
+</div>
+
+
+<!-- Header -->
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1 style="color:black">Technology - The Onion</h1>
+      <iframe style="width:75%" width="560" height="315" src="https://www.youtube.com/embed/fHefhIId4qY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio -->
+<section id="portfolio">
+  <div class="portfolio-content">
+    <h2>My Portfolio</h2>
+    <!-- Your portfolio items go here -->
+    <div class="portfolio-item">
+      <a href="https://github.com/kevinlin95/hackathon" class="btn"><h3>LaGuardia Express Search</h3></a>
+      <p>LaGuardia Express Search is a powerful tool designed to help LaGuardia Community College students quickly find the information and resources they need. Our application offers both text-based search and speech-to-text search capabilities for English, Spanish, and Chinese languages.</p>
+      <p>LaGuardia Express Search works by using the powerful GPT-3 natural language processing engine to provide quick and accurate responses to user queries. Users simply enter a search term, and our application will provide a response with relevant links to LaGuardia's tutoring, financial aid, academic advising, career services, and other important resources.</p>
+      <img src="template/images/laguardia-express-search.png" alt="Project 1">
+      <img src="template/images/laguardia-express-search1.png" alt="Project 1">
+    </div>
+    <div class="portfolio-item">
+      <h3>Project 2</h3>
+      <p>Description of Project 2.</p>
+      <img src="project2.jpg" alt="Project 2">
+    </div>
+    <!-- Add more portfolio items as needed -->
+  </div>
+</section>
+
+
+<!-- Contact -->
+<section id="contact">
+  <div class="contact-content">
+    <h2>Contact Me</h2>
+    <p>Feel free to get in touch. You can reach me at link31580@gmail.com</p>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 Kevin Lin. All rights reserved.</p>
+</footer>
+
+<!-- Mobile Menu Toggle Script -->
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function mobileMenuToggle() {
+    const x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") === -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+
+  document.getElementById("toggle").addEventListener("click", mobileMenuToggle);
+</script>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+</body>
+
+</html>
