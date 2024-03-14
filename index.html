@@ -44,11 +44,14 @@
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1 style="color:black">Technology - The Onion</h1>
-      <iframe style="width:75%" width="560" height="315" src="https://www.youtube.com/embed/fHefhIId4qY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <h1>Technology - The Onion</h1>
+      <div class="video-container">
+        <iframe loading="lazy" src="https://www.youtube.com/embed/fHefhIId4qY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 </div>
+
 
 <!-- Portfolio -->
 <section id="portfolio">
@@ -62,14 +65,14 @@
       <img src="template/images/laguardia-express-search.png" alt="Project 1">
       <img src="template/images/laguardia-express-search1.png" alt="Project 1">
     </div>
-<!--    <div class="portfolio-item">-->
-<!--      <a href="https://github.com/kevinlin95/workmap" class="btn"><h3>WorkMap</h3></a>-->
-<!--      <p>WorkMap is a personal project I embarked on to help immigrants, students and many others find job opportunities.</p>-->
-<!--      <p>WorkMap works by using web scraping technologies along with Google Maps to help find job openings wherever they might be. Users simply enable their location and can find a variety of locations that are hiring. There are filters-->
-<!--      for specified job searches, and help resources to help users find their desired job.</p>-->
-<!--      <img src="project2.jpg" alt="Project 2">-->
-<!--    </div>-->
-    <!-- Add more portfolio items as needed -->
+    <div class="portfolio-item">
+      <a href="https://github.com/kevinlin95/workmap" class="btn"><h3>WorkMap</h3></a>
+      <p>WorkMap is a personal project I embarked on to help immigrants, students and many others find job opportunities.</p>
+      <p>WorkMap works by using web scraping technologies along with Google Maps to help find job openings wherever they might be. Users simply enable their location and can find a variety of locations that are hiring. There are filters
+      for specified job searches, and help resources to help users find their desired job.</p>
+      <img src="project2.jpg" alt="Project 2">
+    </div>
+     <!-- Add more portfolio items as needed -->
   </div>
 </section>
 
@@ -78,15 +81,15 @@
 <section id="contact">
   <div class="contact-content">
     <h2>Contact Me</h2>
-    <p>Feel free to get in touch. You can reach me at link31580@gmail.com</p>
-    <form id="contactForm">
+    <p>Feel free to get in touch. Fill our the form below, or you can reach me at link31580@gmail.com</p>
+    <form id="contactForm" method="POST" action="https://formspree.io/f/xayrbzqa">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
       <label for="message">Message:</label>
       <textarea id="message" name="message" rows="4" required></textarea>
-      <button type="submit">Submit</button>
+      <button type="submit" onclick="resetForm()">Submit</button>
     </form>
   </div>
 </section>
@@ -97,20 +100,7 @@
   <p>&copy; 2024 Kevin Lin. All rights reserved.</p>
 </footer>
 
-<!-- Mobile Menu Toggle Script -->
-<script>
-  // Used to toggle the menu on small screens when clicking on the menu button
-  function mobileMenuToggle() {
-    const x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") === -1) {
-      x.className += " w3-show";
-    } else {
-      x.className = x.className.replace(" w3-show", "");
-    }
-  }
 
-  document.getElementById("toggle").addEventListener("click", mobileMenuToggle);
-</script>
 
 <!-- Scripts -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
