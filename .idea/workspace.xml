@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="765debb5-4dbd-401b-a59b-53fe371effc1" name="Changes" comment="6/12&#10;updating directory">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/laguardia-express-search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/laguardia-express-search1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kevinlin95.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kevinlin95.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="765debb5-4dbd-401b-a59b-53fe371effc1" name="Changes" comment="3/13&#10;updating directory">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +124,7 @@
       <workItem from="1693628165116" duration="20000" />
       <workItem from="1693628189737" duration="55000" />
       <workItem from="1697603214275" duration="114000" />
-      <workItem from="1710188330741" duration="8168000" />
+      <workItem from="1710188330741" duration="9411000" />
     </task>
     <task id="LOCAL-00001" summary="2/6 &#10;updated index.html&#10;added mini directory&#10;deleted old files.">
       <created>1675709133760</created>
@@ -176,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1686593910979</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="3/13&#10;updating directory">
+      <option name="closed" value="true" />
+      <created>1710369285474</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710369285474</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +198,7 @@
     <MESSAGE value="2/6 &#10;small dev comment" />
     <MESSAGE value="3/6&#10;updating directory" />
     <MESSAGE value="6/12&#10;updating directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="6/12&#10;updating directory" />
+    <MESSAGE value="3/13&#10;updating directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/13&#10;updating directory" />
   </component>
 </project>
